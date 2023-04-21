@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai:400,500,600,700');
+
+:root {
+    --marrom-escuro: #210f04;
+    --marrom-claro: #452103;
+    --vermelho: #690500;
+    --laranja: #934b00;
+    --amarelo: #bb6b00;
+}
+
+* {
+    font-family: 'Montserrat';
+    text-decoration: none !important;
+    margin:0; padding:0;
+}
+
+.header {
+    padding: 1.5rem;
+}
+
+.header .logo {
+    font-size: 2rem;
+    color: var(--marrom-escuro);
+}
+
+.header .logo span {
+    color: var(--laranja);
+}
+
+.header nav a {
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: var(--marrom-escuro);
+}
+
+.header nav a:hover {
+    color: var(--laranja);
+}
